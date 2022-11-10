@@ -10,5 +10,6 @@
     <string name="button9"></string>
     <string name="button10"></string>
     <string name="button11">New Game</string>
-    <string name="textView">Player X\'s Turn</string>
+    <string name="textView1">Player X\'s Turn</string>
+    <string name="textView2">Winner: </string>
 </resources>
