@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         fun winner() {
             if(button2.getText().toString().equals("X") && button3.getText().toString().equals("X") && button4.getText().toString().equals("X")){
                 winner.text = "Winner: X"
+                button2.setEnabled(false)
+                button3.setEnabled(false)
                 button4.setEnabled(false)
                 button5.setEnabled(false)
                 button6.setEnabled(false)
@@ -39,6 +41,9 @@ class MainActivity : AppCompatActivity() {
             }
             else if (button2.getText().toString().equals("O") && button3.getText().toString().equals("O") && button4.getText().toString().equals("O")){
                 winner.text = "Winner: O"
+                button2.setEnabled(false)
+                button3.setEnabled(false)
+                button4.setEnabled(false)
                 button5.setEnabled(false)
                 button6.setEnabled(false)
                 button7.setEnabled(false)
@@ -52,6 +57,9 @@ class MainActivity : AppCompatActivity() {
                 button2.setEnabled(false)
                 button3.setEnabled(false)
                 button4.setEnabled(false)
+                button5.setEnabled(false)
+                button6.setEnabled(false)
+                button7.setEnabled(false)
                 button8.setEnabled(false)
                 button9.setEnabled(false)
                 button10.setEnabled(false)
@@ -61,6 +69,9 @@ class MainActivity : AppCompatActivity() {
                 button2.setEnabled(false)
                 button3.setEnabled(false)
                 button4.setEnabled(false)
+                button5.setEnabled(false)
+                button6.setEnabled(false)
+                button7.setEnabled(false)
                 button8.setEnabled(false)
                 button9.setEnabled(false)
                 button10.setEnabled(false)
@@ -74,6 +85,9 @@ class MainActivity : AppCompatActivity() {
                 button5.setEnabled(false)
                 button6.setEnabled(false)
                 button7.setEnabled(false)
+                button8.setEnabled(false)
+                button9.setEnabled(false)
+                button10.setEnabled(false)
             }
             else if(button8.getText().toString().equals("O") && button9.getText().toString().equals("O") && button10.getText().toString().equals("O")){
                 winner.text = "Winner: O"
@@ -83,23 +97,32 @@ class MainActivity : AppCompatActivity() {
                 button5.setEnabled(false)
                 button6.setEnabled(false)
                 button7.setEnabled(false)
+                button8.setEnabled(false)
+                button9.setEnabled(false)
+                button10.setEnabled(false)
             }
 
             if(button2.getText().toString().equals("X") && button5.getText().toString().equals("X") && button8.getText().toString().equals("X")){
                 winner.text = "Winner: X"
+                button2.setEnabled(false)
                 button3.setEnabled(false)
                 button4.setEnabled(false)
+                button5.setEnabled(false)
                 button6.setEnabled(false)
                 button7.setEnabled(false)
+                button8.setEnabled(false)
                 button9.setEnabled(false)
                 button10.setEnabled(false)
             }
             else if(button2.getText().toString().equals("O") && button5.getText().toString().equals("O") && button8.getText().toString().equals("O")){
                 winner.text = "Winner: O"
+                button2.setEnabled(false)
                 button3.setEnabled(false)
                 button4.setEnabled(false)
+                button5.setEnabled(false)
                 button6.setEnabled(false)
                 button7.setEnabled(false)
+                button8.setEnabled(false)
                 button9.setEnabled(false)
                 button10.setEnabled(false)
             }
@@ -107,19 +130,25 @@ class MainActivity : AppCompatActivity() {
             if(button3.getText().toString().equals("X") && button6.getText().toString().equals("X") && button9.getText().toString().equals("X")){
                 winner.text = "Winner: X"
                 button2.setEnabled(false)
+                button3.setEnabled(false)
                 button4.setEnabled(false)
                 button5.setEnabled(false)
+                button6.setEnabled(false)
                 button7.setEnabled(false)
                 button8.setEnabled(false)
+                button9.setEnabled(false)
                 button10.setEnabled(false)
             }
             else if(button3.getText().toString().equals("O") && button6.getText().toString().equals("O") && button9.getText().toString().equals("O")){
                 winner.text = "Winner: O"
                 button2.setEnabled(false)
+                button3.setEnabled(false)
                 button4.setEnabled(false)
                 button5.setEnabled(false)
+                button6.setEnabled(false)
                 button7.setEnabled(false)
                 button8.setEnabled(false)
+                button9.setEnabled(false)
                 button10.setEnabled(false)
             }
 
@@ -127,27 +156,36 @@ class MainActivity : AppCompatActivity() {
                 winner.text = "Winner: X"
                 button2.setEnabled(false)
                 button3.setEnabled(false)
+                button4.setEnabled(false)
                 button5.setEnabled(false)
                 button6.setEnabled(false)
+                button7.setEnabled(false)
                 button8.setEnabled(false)
                 button9.setEnabled(false)
+                button10.setEnabled(false)
             }
             else if(button4.getText().toString().equals("O") && button7.getText().toString().equals("O") && button10.getText().toString().equals("O")){
                 winner.text = "Winner: O"
                 button2.setEnabled(false)
                 button3.setEnabled(false)
+                button4.setEnabled(false)
                 button5.setEnabled(false)
                 button6.setEnabled(false)
+                button7.setEnabled(false)
                 button8.setEnabled(false)
                 button9.setEnabled(false)
+                button10.setEnabled(false)
             }
 
             if(button4.getText().toString().equals("X") && button6.getText().toString().equals("X") && button8.getText().toString().equals("X")){
                 winner.text = "Winner: X"
                 button2.setEnabled(false)
                 button3.setEnabled(false)
+                button4.setEnabled(false)
                 button5.setEnabled(false)
+                button6.setEnabled(false)
                 button7.setEnabled(false)
+                button8.setEnabled(false)
                 button9.setEnabled(false)
                 button10.setEnabled(false)
             }
@@ -155,29 +193,38 @@ class MainActivity : AppCompatActivity() {
                 winner.text = "Winner: O"
                 button2.setEnabled(false)
                 button3.setEnabled(false)
+                button4.setEnabled(false)
                 button5.setEnabled(false)
+                button6.setEnabled(false)
                 button7.setEnabled(false)
+                button8.setEnabled(false)
                 button9.setEnabled(false)
                 button10.setEnabled(false)
             }
 
             if(button2.getText().toString().equals("X") && button6.getText().toString().equals("X") && button10.getText().toString().equals("X")){
                 winner.text = "Winner: X"
+                button2.setEnabled(false)
                 button3.setEnabled(false)
                 button4.setEnabled(false)
                 button5.setEnabled(false)
+                button6.setEnabled(false)
                 button7.setEnabled(false)
                 button8.setEnabled(false)
                 button9.setEnabled(false)
+                button10.setEnabled(false)
             }
             else if(button2.getText().toString().equals("O") && button6.getText().toString().equals("O") && button10.getText().toString().equals("O")){
                 winner.text = "Winner: O"
+                button2.setEnabled(false)
                 button3.setEnabled(false)
                 button4.setEnabled(false)
                 button5.setEnabled(false)
+                button6.setEnabled(false)
                 button7.setEnabled(false)
                 button8.setEnabled(false)
                 button9.setEnabled(false)
+                button10.setEnabled(false)
             }
         }
 
@@ -221,6 +268,7 @@ class MainActivity : AppCompatActivity() {
                 playersTurn.text = "Player X's Turn"
                 currentPlayer = 0
                 winner.text = "Winner: "
+                count = 0
             }
         }
 
